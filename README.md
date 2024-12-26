@@ -10,7 +10,7 @@ Este proyecto se trata del desarrollo, mantenimiento y expansión de un Clon de 
 ---
 ### Dependencias
 Este proyecto describe las siguientes dependencias:
- - Lenguaje **Python**
+ - Lenguaje **Python 3**
  - La librería de **PyScript** (https://pyscript.com/)
  - Framework Backend **FastAPI**
  - Algún navegador web, preferiblemente con base **Chromium**.

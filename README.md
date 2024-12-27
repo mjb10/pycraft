@@ -12,7 +12,8 @@ Este proyecto se trata del desarrollo, mantenimiento y expansión de un Clon de 
 Este proyecto describe las siguientes dependencias:
  - Lenguaje **Python 3**
  - La librería de **PyScript** (https://pyscript.com/)
- - Framework Backend **FastAPI**
+ - Framework Backend **Django**
+ - Framework para bases de datos **PostgreSQL**
  - Algún navegador web, preferiblemente con base **Chromium**.
  - Framework Frontend **Svelte**
  - Lenguaje **Javascript**

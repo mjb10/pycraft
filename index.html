@@ -5,16 +5,32 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://main.tecnosapiens.cloud/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@900&amp;display=swap">
+  <link rel="stylesheet" href="https://main.tecnosapiens.cloud/css/shadow.css">
+  <link rel="stylesheet" href="https://main.tecnosapiens.cloud/css/includes/all_fonts.css">
+  <link rel="stylesheet" href="https://main.tecnosapiens.cloud/css/includes/fades.css">
+  <link rel="stylesheet" href="https://main.tecnosapiens.cloud/css/scroll.css">
   <title>PyCraft</title>
   <!-- PyScript CSS -->
-  <link rel="stylesheet" href="https://pyscript.net/releases/2024.2.1/core.css">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.5.1/core.css">
   <!-- This script tag bootstraps PyScript -->
-  <script type="module" src="https://pyscript.net/releases/2024.2.1/core.js"></script>
+  <script type="module" src="https://pyscript.net/releases/2024.5.1/core.js"></script>
 </head>
 
 <body>
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
+  <script type="module">
+    import files from "./src/assets/importedFiles.json"
+
+    files.forEach(file => {
+      const script = document.createElement("script")
+      script.setAttribute("type", "mpy")
+      script.setAttribute("src", file)
+      document.body.appendChild(script)
+    });
+  </script>
 </body>
 
 </html>

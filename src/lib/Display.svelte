@@ -1,3 +1,11 @@
-Display
+<div class="parentDisplay"></div>
 
-<py-script> print("hola") </py-script>
+<style>
+    .parentDisplay {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

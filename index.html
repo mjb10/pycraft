@@ -21,16 +21,6 @@
 <body>
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
-  <script type="module">
-    import files from "./src/assets/importedFiles.json"
-
-    files.forEach(file => {
-      const script = document.createElement("script")
-      script.setAttribute("type", "mpy")
-      script.setAttribute("src", file)
-      document.body.appendChild(script)
-    });
-  </script>
 </body>
 
 </html>

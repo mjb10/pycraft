@@ -4,9 +4,8 @@
   import Navigate from "./shared/Navigate.svelte";
   import Display from "./lib/Display.svelte";
 
-  import files from "./assets/importedFiles";
-
-  files.forEach((file) => {
+  import pyFiles from "./assets/importedFiles";
+  pyFiles.forEach((file) => {
     const script = document.createElement("script");
     script.setAttribute("type", "mpy");
     script.setAttribute("src", file);

@@ -16,6 +16,7 @@ Este proyecto describe las siguientes dependencias:
  - Algún navegador web, preferiblemente con base **Chromium**.
  - Framework Frontend **Svelte**
  - Lenguaje **Javascript**
+ - Compilador **Nuitka** *[pending]*
 
 ---
 ### Sobre licencias
